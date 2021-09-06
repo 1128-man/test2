@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#head{
+    background-color: cadetblue; 
+}
+
+.title{
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    /* background-color: cadetblue;  */
+    color: cornsilk;
+}
+.content{
+    padding-left: 200px;
+    height:calc(100vh-70px);
+    background-color: cornsilk;
+    overflow-y: scroll;/*滚动条显示 */
+    
+}
+#table{
+    border: 1px solid black;
+    width:100%;
+    text-align:center;
+    line-height: 30px;
+    background-color: cornsilk;
+}
+#btn1{
+    border: none;
+    outline: none;
+    background-color: rgb(30, 210, 141);
+    padding: 5px,10px;
+    cursor: pointer;
+}
+#btn2{
+    border: none;
+    outline: none;
+    background-color: rgb(210, 30, 195);
+    padding: 5px,10px;
+    cursor: pointer;
+}
+#btn3{
+    border: none;
+    outline: none;
+    background-color: rgb(210, 30, 54);
+    padding: 5px,10px;
+    cursor: pointer;
+}
+#btn4{
+    bottom: 0;
+    position: fixed;
+    margin-left: 50%;
+    background-color: chocolate;
+    cursor: pointer;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+    <title>学生信息展示</title>
+    <style type="text/css">
+      @import url(student.css);
+    </style>
+    <script src="show.js"></script>
+  </head>
+  <body>
+    <!-- <script src="./jquery.js"></script>
+    <script type="text/javascript"></script>
+    <script src="./index.js"></script> -->
+    <div id="head">
+      <input type="text" placeholder="输入...">
+      <button>搜索</button>
+    <h2 class="title">学生列表</h2>
+  </div>
+    <div class="content">
+      <table id="table" data-id="student-list">
+        <thead>
+          <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>sex</th>
+            <th>age</th>
+            <th>birthday</th>
+            <th>classid</th>
+            <th>操作</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+              <button id="btn1">查看</button>
+              <button id="btn2">编辑</button>
+              <button id="btn3">删除</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <button id="btn4">添加学生信息</button>
+    </div>
+  </body>
+</html>
